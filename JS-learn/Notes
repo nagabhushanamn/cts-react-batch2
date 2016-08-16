@@ -1,0 +1,127 @@
+
+
+
+  JS - language
+  -----------------
+
+
+  --> scripting lang for web-pages in browser-envi
+  +
+  --> server-side lang on NodeJS runtime
+
+  --> desktop appln
+
+  --> mobile appln
+
+  
+
+  JS features
+  -----------------------------------------
+
+  --> functional programming lang
+  --> OO lang
+
+  --> dynamic data-types
+  --> closures
+
+  --> single-threaded , supports better concurrency
+  --> IO operations are Non-Blocking
+
+  --> on event , can execute functions async.
+
+  ------------------------------------------
+
+
+
+   JS lang is an implementation of 'ECMAScript spec'
+
+
+   lastest : ES6  or ECMAScript-2015
+
+
+   -------------------------------------------
+
+
+   How to run JS-programs ?
+
+   --> we need 'JS engine'  ( compile --> interpret --> machine )
+
+
+   browser envi
+
+   e.g
+
+   chrome  ---> V8 ( c++ )
+   firefox ---> rhino ( java )
+   IE      ---> chakra
+   safari  ---> Nitro
+
+
+   Non browser-eni
+
+   Node.js ---> v8
+   JVM     ---> rhino / nashorn ( jdk 1.8 )
+   MongoDB
+   Apache CouchDB
+
+   .....
+
+   all javaScript-engines implements 'ECMAScript' spec
+
+  
+  
+   -----------------------------------------
+
+
+    JS - learning
+
+
+    1. JS - data-structures / types / variables
+
+    2. JS - executions contexts and scope-chains
+
+    3. JS - functions
+
+    4. JS - 'this' keyword
+
+
+    -------------------------------------------
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
