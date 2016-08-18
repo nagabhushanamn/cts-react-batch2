@@ -1,0 +1,45 @@
+
+
+
+ES6 / ECMAScript-2015  
+----------------------
+
+
+
+New Syntax
+
+
+ 1. let , const and blockscope
+ 2. arrow functions ( lambdas )
+ 3. default function parameters 
+ 4. Rest ( varargs ) and spread parameters  
+ 5. Object Literal  ( {} )  extensions
+ 6. for .... of loop   ( to loop any iterable obj )
+ 7. destructuring
+ 8. Template Literals ( String Interpolation )
+ 9. Octals and binary
+
+    let octal=0o10;  ---> 8
+    let binary=ob10  ---> 2
+
+-------------------------------------------------   
+11. classes  
+
+
+12. Modules
+13. API extensions
+14. Symbol
+15. Iterators & Generators
+16. Reflction API
+17. Promise API
+18. Proxy
+19. TypedArray
+
+20. Collections ( Map and Set )
+
+--------------------------------------------------
+
+
+
+
+
