@@ -1,0 +1,15 @@
+{
+    "name": "es6",
+    "version": "1.0.0",
+    "description": "",
+    "main": "arrow_functions.js",
+    "scripts": {
+        "transpile": "babel --watch modules/src -d modules/dist"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-cli": "^6.11.4",
+        "babel-plugin-transform-es2015-modules-amd": "^6.8.0"
+    }
+}

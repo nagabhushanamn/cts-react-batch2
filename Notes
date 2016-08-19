@@ -1,0 +1,52 @@
+
+
+JS - lang 
+-----------
+
+--> global naming collision
+
+soln:   module design pattern  : self-executable functions
+
+----------------------------------------------------------
+
+
+ javascript communities defined module-standards to create/load Js modules
+
+   1. AMD ( Asycn Module Definition  )
+
+      AMD spec:
+
+      define() --> to define new-module
+      require() --> to load modules
+
+      we need AMD loaders  ( Module loaders )
+
+      e.g
+
+          RequiresJS , dojo , etc....
+    
+
+   2. CommonJS    
+
+
+     --> simple to use
+     --> NodeJS envi uses commonJS module system by default
+
+
+    points
+
+     --> every .js file is module ,
+     --> any var/func are private to that file
+     --> we need explicitly to export to other modules.
+      
+
+    ------------------------------------
+
+    ES6  - modules
+
+
+
+
+
+    
+      
