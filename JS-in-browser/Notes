@@ -1,0 +1,124 @@
+
+
+  what JS-programs can do with HTML-page in browser -envi?
+
+  JS-programs using 'Web APIs' can bring any dynamic/interactivity to web-page
+
+
+  Web-APIs
+
+     e.g DOM , XHR , Timer , etc...
+
+    All Web-APIs are implemented and abstracted as JS-objects/functiocns by
+    'browsers'    
+
+
+  using DOM :
+  --> can create/query/update/delete HTML elements
+  --> can change element's style ( css )
+  --> can change element's attribute values
+  --> can change element's text
+  --> can listen event's
+  --> can create rich UI components
+  --> can validate form fields
+
+  using XHR API
+  --> can communicate with server-programs async, update results
+      in existing page ( AJAX )
+ 
+  using Timer API
+
+  setTimeout, setInterval
+
+  HTML5-APIs
+
+  -------------------------------------------
+
+
+   JS-lang is
+
+
+   --> single-threaded lang  ( from spec )
+   --> can provide better concurrency
+   --> all I/O oprns are 'Non-Blocking'
+
+
+  --------------------------------------------
+
+
+  browser e.g chrome
+  --------------------
+
+   A. JavaScript Engine  ( v8 )
+
+        1. call-stack  --> to execute contexts
+        2. heap        --> to keep objects
+
+   B.  Web-APIs    ( DOM , XHR , Timer , etc... ) 
+
+   C.  callback/message queue
+
+   D.  Event-Loop
+
+   -----------------------------------------------
+
+
+    Limitations/complexities of plain-JS ( mycode + web APIs )
+
+
+    --> browser compatibility
+    --> too much script for simple oprns
+    --> performance  ( DOM manipulation )
+    --> memory management
+    --> code organization
+
+
+    soln :
+
+    JS - libraies and F.Ws  from different communities/vendors
+
+    1. jQuery
+
+       limitations :
+
+       --> low-level ( very close to REAL DOM )
+
+           e.g $(DOM).action1().action();
+
+       --> code organization  ( soln , plugins )
+
+       --> no automatic data-binding support
+
+   2. Knockout based on MVVM
+
+      --> declarative and data-binding support
+
+
+      etc...
+
+    ----------------------------------  
+
+
+    MVC / MVVM based JS F.W
+
+
+    1. backbone
+    2. Angular 
+    3. Ember
+
+    4. dojo
+    5. Ext-JS
+
+    etc....
+
+
+    -----------------------------------
+
+    React  + FLux  + Redux    <--------> ( REST API )  NodeJS  + MongoDB
+
+    ------------------------------------
+
+    React + Es6
+
+    ------------------------------------
+
