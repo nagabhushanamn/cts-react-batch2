@@ -17,6 +17,7 @@
   "dependencies": {
     "react": "^15.3.1",
     "semantic": "semantic-ui#^2.2.3",
-    "babel": "^5.8.38"
+    "babel": "^5.8.38",
+    "fetch": "^1.0.0"
   }
 }
