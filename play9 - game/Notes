@@ -1,0 +1,17 @@
+
+
+
+ Limitation:
+
+ --> state management with UI-comp if appln is large.
+
+
+ -----------------------------
+
+ soln :
+
+ apply 'flux' design pattern.
+
+
+
+ best impln  : 'Redux'
