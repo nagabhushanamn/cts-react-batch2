@@ -1,0 +1,45 @@
+
+
+
+  app for managing email , clicking an email must
+
+  --> replace the 'inbox view' with 'email-view'
+  --> Mark the email as read locally
+  --> Reduce the total unread counter locally
+  --> change the URL of the browser
+  --> send a web request to mark the email as read on the server
+
+
+  ---------------------------
+
+  decouple interactions-handling(View-comp ) and state-management
+
+
+  adv
+
+  --> breaking-up state management
+  --> react components are simpler
+  --> easy to debug and test the components.
+
+
+soln 
+
+--> Flux Pattern  
+
+    --> uni-directional flow
+
+    impln:
+
+    Redux ( popular )
+
+
+
+    React + Redux 
+
+    --------------------------------------
+          
+
+
+
+
+   

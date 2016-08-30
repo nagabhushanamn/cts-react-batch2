@@ -1,0 +1,71 @@
+
+
+
+
+
+e.g
+
+consider an app for managing email , consider an email
+
+  1. replace the 'inbox-view' with the 'email-view'
+  2. mark the email as read localy
+  3. Reduce the total unread counter locally
+  4. change the URL of the browser
+  5. Send the web-request to mark the email as read on the server
+
+-------------------------------------------------------
+
+  problem :
+
+  --> tigt-coupling b/w user-interactions ( View-Comps ) and state-changes
+
+  soln : 
+  
+   apply 'flux' design pattern with uni-directional data-flow
+
+
+   most popular flux impln -  'Redux'
+
+-------------------------------------------------------   
+
+analysis
+-----------
+
+custom redux impln:
+
+
+e.g Counter App
+
+
+---------------------------------------
+
+ Actions:
+
+   1. INCREMENT  --> {type:'INCREMENT',amount:1}
+   2. DECREMENT  --> {type:'DECREMENT',amount:1}
+
+
+---------------------------------------
+
+dispatcher 
+
+----------------------------------------
+
+store() {
+
+// initial state  , count=0
+
+// shud reduce( process ) the state with given action, then produce new-state
+
+}
+
+---------------------------------------
+
+React View  --> '+'  and '-'
+
+--------------------------------------
+
+
+
+
+
