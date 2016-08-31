@@ -1,0 +1,25 @@
+
+
+
+
+// redux -   ( state management )
+
+ 
+  1. actions
+  2. reducers
+  3. store   ( dispatcher , subscribe , getState )
+      
+-------------------------------------------------
+
+react - View Components
+
+      App
+         Header
+          TodoInputText
+         
+         MainSection
+          TodoItem(s)
+          Footer
+
+---------------------------------------------------        
+
