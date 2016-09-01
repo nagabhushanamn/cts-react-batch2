@@ -1,6 +1,7 @@
 
 import React, {Component} from 'react';
 import Header from './Header';
+import MainSection from './MainSection';
 import configureStore from '../store/configureStore';
 import * as ActionTypes from '../actions'
 
@@ -11,21 +12,18 @@ import { bindActionCreators } from 'redux';
 
 class App extends Component{
     render() {
+        const {todos, actions} = this.props;
         return (
             <div>
-                <Header addTodo={this.props.actions.addTodo}/>              
-                              
+                <Header addTodo={actions.addTodo}/>
+                <MainSection todos={todos} actions={actions}/>
             </div>    
         );
     }
 }
 
-
-
-
 // map store-current to comp's properties instead-of subscribing mannulay
 function mapStateToProps(state) {
-    console.log('mapping store state to App-comp props');
     return {todos:state.todos}
 }
 function mapDispatchToProps(dispath) {

@@ -11,7 +11,7 @@ export function deleteTodo(id) {
     return {type:types.DELETE_TODO,id};
 }
 
-export function editTodo(text,id) {
+export function editTodo(id,text) {
     return {type:types.EDIT_TODO,text,id};
 }
 
